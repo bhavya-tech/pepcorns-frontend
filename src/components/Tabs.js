@@ -12,6 +12,10 @@ import Details from "./Details";
 
 import Pitch from "./Pitch";
 import Updates from "./Updates";
+
+import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
+
+
    
 export default function DataTabs() {
     const data = [
@@ -49,11 +53,13 @@ export default function DataTabs() {
         <div className="container justify-center items-center">
         <Tabs value="html">
             <TabsHeader>
-            {data.map(({ label, value }) => (
-                <Tab key={value} value={value}>
-                {label}
-                </Tab>
-            ))}
+                {/* <ScrollMenu> */}
+                    {data.map(({ label, value }) => (
+                        <Tab key={value} value={value}>
+                        {label}
+                        </Tab>
+                    ))}
+                {/* </ScrollMenu> */}
             </TabsHeader>
             <TabsBody>
             {data.map(({ value, desc }) => (

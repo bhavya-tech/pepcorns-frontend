@@ -1,13 +1,27 @@
+function PitchSection(){
+    return (
+        <div class="text-left">
+            <hr class="my-6 border-gray-300" />
+
+            <h2 class="text-3xl font-bold">Pitch Deck</h2>
+            <p class="text-lg mt-4">Download our pitch deck to learn more about our company</p>
+            
+        </div>
+    )
+}
+
 
 export default function Pitch() {
     return (
-        <div className="flex flex-col items-center justify-center w-full h-full">
-            <h1 className="text-4xl font-bold text-center text-gray-800">
-                We're not always in the position that we want to be at.
-            </h1>
-            <p className="text-lg text-center text-gray-600">
-                We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams.
-            </p>
+        <div class="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+            
+            <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Download Deck Pitch
+            </button>
+
+            <PitchSection/>
+            <PitchSection/>
+            
         </div>
     )
 }
