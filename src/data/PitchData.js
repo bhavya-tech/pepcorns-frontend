@@ -3,7 +3,7 @@ export const PitchData = [
         heading:"Highlights",
         content: () =>
             <div>
-                <ul class="list-disc list-inside">
+                <ul className="list-disc list-inside">
                     <li>Running profitable pilot in Bengaluru.</li>
                     <li>20k+ registered users, 4.2 app rating and 10k+ social media following  </li>
                     <li>Company is projecting 100cr+ transaction volume in 5 years</li>

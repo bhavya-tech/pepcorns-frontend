@@ -12,11 +12,11 @@ function ProfileButton(){
 
 export default function Header(){
     return (
-      <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <header className="text-gray-600 body-font">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <img src="https://pepcorns.com/image/png/logo-dark.png"/>
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <a class="mr-1 hover:text-gray-900">Dashboard</a>
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a className="mr-1 hover:text-gray-900">Dashboard</a>
             
           </nav>
           <ProfileButton />
