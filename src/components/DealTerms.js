@@ -1,4 +1,4 @@
-import { DealTermModel } from "../models/DealTermModel"
+
 import React from 'react';
 import { DealTermData } from "../data/DealTermData";
 
@@ -34,7 +34,6 @@ class DealTermCardPerks extends React.PureComponent {
 }
 
 function DealTermCard(data) {
-    console.log(data.data);
     const dealTerm = data.data;
 
     return (
