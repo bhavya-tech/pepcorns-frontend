@@ -46,7 +46,7 @@ export default function DataTabs() {
   ];
 
   return (
-    <div className="container justify-center items-center">
+    <div className="container mx-auto ">
       <Tabs value="html">
         <TabsHeader>
           {data.map(({ label, value }) => (

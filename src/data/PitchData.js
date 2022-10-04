@@ -29,6 +29,7 @@ export const PitchData = [
         content: () =>
         <div>
             <p>To get low prices 85% of the consumers check at least 2 data points (Source: BCG Consumer Trends). In various sectors information centred buying has been made more efficient by companies like MMT for Travel, Policy bazaar for Insurance, Myntra or Shopperstop for Lifestyle products. However for rental products, there is no one & to fill this need and make the process efficient we launched LetzRent, hoping to have a first-mover advantage and dominate the market in the coming future.</p>
+            <br/>
             <img src="https://images.unlayer.com/projects/15608/1651352925215-3.PNG" />
         </div>
     },
@@ -89,9 +90,9 @@ export const PitchData = [
         heading:"Documents for Investors",
         content: () =>
             <div>
-                <ul>
-                    <li><a href="http://drive.google.com/file/d/1clHQGD__nkbsA-cLz3A6_tABUuk5rl3w/view">Due Diligence Report</a></li>
-                    <li><a href="http://drive.google.com/file/d/1i02nUH-27EhiROtNlvXOfkPP7iTfwjpw/view?usp=sharing">Certificate of Incorporation</a></li>
+                <ul className="list-disc list-inside">
+                    <li><a className="text-indigo-400" href="http://drive.google.com/file/d/1clHQGD__nkbsA-cLz3A6_tABUuk5rl3w/view">Due Diligence Report</a></li>
+                    <li><a className="text-indigo-400" href="http://drive.google.com/file/d/1i02nUH-27EhiROtNlvXOfkPP7iTfwjpw/view?usp=sharing">Certificate of Incorporation</a></li>
                 </ul>
             </div>
     }

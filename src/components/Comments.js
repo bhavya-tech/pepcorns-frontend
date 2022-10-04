@@ -40,8 +40,9 @@ function CommentBox(name, date, comment, replies) {
                 </button>
             </div>
 
-            {/* Replies */}
-            <h3 className="font-bold mt-6">Replies</h3>
+            
+            {replies && <h3 className="font-bold mt-6">Replies</h3>}
+            
             {repliesList}
         </div>
     )

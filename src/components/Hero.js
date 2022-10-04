@@ -4,15 +4,21 @@ export default function Hero() {
     <section className="text-gray-600 body-font overflow-hidden">
       <div className="container py-10 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
-          <img alt="ecommerce" className="lg:w-1/3 w-full object-cover object-center rounded" src="https://api.pepcorns.com/clientassets/icon1651230435196.png" />
+          <img alt="ecommerce" className="lg:w-1/4 w-full  rounded" src="https://api.pepcorns.com/clientassets/icon1651230435196.png" />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
 
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Letzrent</h1>
             <h2 className="text-sm title-font text-gray-500 tracking-widest">Address : Mumbai, Maharashtra</h2>
+            <div className="flex">
+                
+                <a className="text-indigo-300">hello@letzrent.com</a>
+              </div>
+              <div className="flex">
+                <a className="text-indigo-300">letzrent.com</a>
+              </div>
             <div className="flex mb-4">
 
-
-              <span className="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+              <span className="flex  py-2 space-x-2s">
                 <a className="text-gray-500">
                   <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -31,7 +37,7 @@ export default function Hero() {
               </span>
             </div>
             <p className="leading-relaxed">
-            Online search, compare & booking platform for self-drive cars, charter flights, living space & more that rewards users
+              Online search, compare & booking platform for self-drive cars, charter flights, living space & more that rewards users
             </p>
 
 
