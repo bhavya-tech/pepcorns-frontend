@@ -10,7 +10,7 @@ function ReplyBox(name, date, comment) {
                 <p className="text-sm">Posted on {date}</p>
             </section>
 
-            <hr className="my-6 border-gray-300" />
+            <hr className="my-6 border-gray-200" />
             <p>
                 {comment}
             </p>
@@ -35,14 +35,14 @@ function CommentBox(name, date, comment, replies) {
             </p>
 
             <div className="flex justify-end">
-                <button className="bg-indigo-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" data-bs-target="#exampleModal" data-bs-toggle="modal">
+                <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full" data-bs-target="#exampleModal" data-bs-toggle="modal">
                     Reply
                 </button>
             </div>
 
-            
+
             {replies && <h3 className="font-bold mt-6">Replies</h3>}
-            
+
             {repliesList}
         </div>
     )
@@ -64,18 +64,18 @@ function CommentModal() {
                     </div>
                     <section className="text-gray-600 body-font relative">
                         <div className="container px-5 py-5 mx-auto">
-                            
+
                             <div className="w-full mx-auto">
                                 <div className="flex flex-wrap -m-2">
-                                    
+
                                     <div className="p-2 w-full">
                                         <div className="relative">
                                             <label for="message" className="leading-7 text-sm text-gray-600">Message</label>
                                             <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                         </div>
                                     </div>
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
@@ -84,17 +84,17 @@ function CommentModal() {
                         className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
                         <button type="button" className="px-6
           py-2.5
-          bg-gray-500
-          text-white
+          bg-gray-300
+          text-gray-600
           font-medium
           text-xs
           leading-tight
           uppercase
           rounded
           shadow-md
-          hover:bg-gray-700 hover:shadow-lg
-          focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0
-          active:bg-purple-800 active:shadow-lg
+          hover:bg-gray-300 hover:shadow-lg
+          focus:bg-gray-500 focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-gray-500 active:shadow-lg
           transition
           duration-150
           ease-in-out" data-bs-dismiss="modal">Close</button>
@@ -108,9 +108,9 @@ function CommentModal() {
       uppercase
       rounded
       shadow-md
-      hover:bg-blue-700 hover:shadow-lg
-      focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-      active:bg-blue-800 active:shadow-lg
+      hover:bg-indigo-700 hover:shadow-lg
+      focus:bg-indigo-700 focus:shadow-lg focus:outline-none focus:ring-0
+      active:bg-indigo-800 active:shadow-lg
       transition
       duration-150
       ease-in-out
