@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pepcorns-frontend/static/css/main.d75f8c04.css",
-    "main.js": "/pepcorns-frontend/static/js/main.b10c7f12.js",
+    "main.css": "/pepcorns-frontend/static/css/main.a8a906ba.css",
+    "main.js": "/pepcorns-frontend/static/js/main.34e85d1d.js",
     "static/js/787.e7e24120.chunk.js": "/pepcorns-frontend/static/js/787.e7e24120.chunk.js",
     "index.html": "/pepcorns-frontend/index.html",
-    "main.d75f8c04.css.map": "/pepcorns-frontend/static/css/main.d75f8c04.css.map",
-    "main.b10c7f12.js.map": "/pepcorns-frontend/static/js/main.b10c7f12.js.map",
+    "main.a8a906ba.css.map": "/pepcorns-frontend/static/css/main.a8a906ba.css.map",
+    "main.34e85d1d.js.map": "/pepcorns-frontend/static/js/main.34e85d1d.js.map",
     "787.e7e24120.chunk.js.map": "/pepcorns-frontend/static/js/787.e7e24120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d75f8c04.css",
-    "static/js/main.b10c7f12.js"
+    "static/css/main.a8a906ba.css",
+    "static/js/main.34e85d1d.js"
   ]
 }
