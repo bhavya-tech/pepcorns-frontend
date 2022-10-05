@@ -9,6 +9,7 @@ export default function Hero() {
 
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Letzrent</h1>
             <h2 className="text-sm title-font text-gray-500 tracking-widest">Address : Mumbai, Maharashtra</h2>
+            <h2 className="text-sm title-font text-gray-500 tracking-widest">PAN/TAN : AAJCR3294F</h2>
             <div className="flex">
 
               <a className="text-indigo-300">hello@letzrent.com</a>
