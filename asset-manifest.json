@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pepcorns-frontend/static/css/main.1ffb7436.css",
-    "main.js": "/pepcorns-frontend/static/js/main.7d145db9.js",
+    "main.js": "/pepcorns-frontend/static/js/main.63f1133d.js",
     "static/js/787.e7e24120.chunk.js": "/pepcorns-frontend/static/js/787.e7e24120.chunk.js",
     "index.html": "/pepcorns-frontend/index.html",
     "main.1ffb7436.css.map": "/pepcorns-frontend/static/css/main.1ffb7436.css.map",
-    "main.7d145db9.js.map": "/pepcorns-frontend/static/js/main.7d145db9.js.map",
+    "main.63f1133d.js.map": "/pepcorns-frontend/static/js/main.63f1133d.js.map",
     "787.e7e24120.chunk.js.map": "/pepcorns-frontend/static/js/787.e7e24120.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ffb7436.css",
-    "static/js/main.7d145db9.js"
+    "static/js/main.63f1133d.js"
   ]
 }
